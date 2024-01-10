@@ -26,3 +26,13 @@ Projeyi yerel bilgisayarınıza klonlayın ve gerekli bağımlılıkları yükle
 cd Client
 yarn install
 yarn run dev
+```
+cd smart_contract
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
+
